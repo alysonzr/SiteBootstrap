@@ -1,0 +1,341 @@
+a {
+	font-family: 'Rokkitt', serif;
+	font-size: 18px;
+}
+
+body {
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 18px;
+	color: #555;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+	text-align: center;
+}
+
+/*IMAGEM PRINCIPAL*/
+#imagemPrincipal {
+	max-width: 100%;
+	height: auto;
+	margin-top: -20%;
+}
+
+.holder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home p {
+	position: absolute;
+	font-size: 76px;
+	font-family: sans-serif;
+	text-align: center;
+	justify-content: center;
+	margin-top: -75px;
+}
+
+.home h5 {
+	margin-bottom: 131px;
+	font-size: 28px;
+	color: white;
+}
+
+
+#homeIcons img {
+	margin-bottom: 17px;
+}
+
+#homeIcons p {
+	margin-top: 22px;
+}
+
+
+#sobre h1 {
+	margin-top: 70px;
+}
+
+#sobre p {
+	margin-bottom: 70px;
+}
+
+#imagemMar {
+	background-image: url(../img/mar.jpg);
+	height: 300px;
+	background-repeat: round;
+}
+
+
+
+#imgIphone {
+	background-repeat: no-repeat;
+	width: 75%;
+	margin-left: 8%;
+	margin-top: -91px;
+
+}
+
+#imgFamilia {
+	background-image: url(../img/familia.png);
+	height: 300px;
+	background-repeat: round;
+	color: white;
+
+}
+
+#dividerFamilia h2 {
+	padding-top: 76px;
+}
+
+#dividerFamilia p {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+
+/*IMAGEM DE DIVISAO 3*/
+#ImgDivider3 {
+	background-image: url(../img/divider3.jpg);
+	height: 350px;
+	margin-top: 40px;
+
+}
+
+#ImgDivider3 h1 {
+	color: white;
+	padding-top: 80px;
+}
+
+#ImgDivider3 p {
+	color: white;
+	font-size: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+
+/*IMAGEM DE DIVISAO 4*/
+#imgDivider4 {
+	background-image: url(../img/divider4.jpg);
+	height: 350px;
+}
+
+#imgDivider4 h1 {
+	color: white;
+	padding-top: 80px;
+}
+
+#imgDivider4 p {
+	color: white;
+	font-size: 25px;
+	margin-left: 17%;
+	margin-right: 15%;
+}
+
+.iconDivider4 {
+	margin-left: 48%;
+
+}
+
+#autores {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.card:hover {
+	background-color: #4789ff;
+}
+
+#trabconosco {
+	background-color: #f5f5f5;
+}
+
+#trabconosco h2 {
+	margin-top: 92px;
+}
+
+#trabconosco p {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#trabconosco button {
+	margin-left: 41%;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	margin-top: 0%;
+}
+
+
+.linha {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 50px;
+	border-bottom: 1px groove;
+}
+
+/*	BLOG */
+
+#TituloTonyStark {
+	/*TITULO DA OBRA */
+	margin-bottom: -16%;
+	margin-top: 70px;
+	margin-left: -33%;
+}
+
+#h3tony {
+	/*H3 NOME DO AUTOR*/
+	margin-left: 86px;
+	margin-top: 58px;
+
+}
+
+#blogTony {
+	/*PARAGRAFO*/
+	margin-top: 109px;
+}
+
+
+#TituloBruce {
+	margin-top: 71px;
+	margin-right: 197px;
+}
+
+#h3bruce {
+	margin-left: 99px;
+	margin-top: 58px;
+}
+
+#blogBruce {
+	margin-top: 20px;
+}
+
+
+
+#Imgblog {
+	position: absolute;
+}
+
+#txtMuted {
+	margin-left: 256px;
+	position: absolute;
+	font-size: 12px;
+}
+
+#btnForm {
+	margin-left: 24%;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+
+.InformConta {
+	margin-left: 77px;
+}
+
+.container-fluid {
+	padding: 0 !important;
+
+}
+
+/*TITULOS DA PAGINA CONTATO*/
+#SN {
+	margin-bottom: 19px;
+	margin-right: 215px;
+}
+
+.InformConta {
+	margin-left: 20px;
+
+}
+
+#FC {
+	margin-bottom: 19px;
+	margin-right: 60px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 300px) and (max-width: 979px) {
+	#TituloTonyStark {
+		margin-left: 25px;
+	}
+
+	#h3tony {
+		margin-left: 156px;
+	}
+
+	#txtMuted {
+		margin-left: 216px;
+		position: absolute;
+		font-size: 12px;
+	}
+
+	#ImgDivider3 p {
+		margin-top: -26px;
+	}
+
+	#dividerFamilia p {
+		margin-top: -40px;
+	}
+
+	#dividerFamilia h2 {
+		padding-top: -9px;
+	}
+
+	#trabconosco p {
+		margin-left: 74px;
+		margin-right: 74px;
+		margin-bottom: 82px;
+	}
+
+	#trabconosco button {
+		margin-left: 41%;
+		margin-top: -101px;
+	}
+
+	
+}
+
+@media screen and (max-width: 480px) {
+	#ImgDivider3 p {
+		margin-top: -43px;
+	}
+
+	.iconDivider4 a {
+		margin-left: -22px;
+		padding-right: 14px;
+
+	}
+
+	#dividerFamilia linha {
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 94px;
+		border-bottom: 1px groove;
+	}
+
+	.carousel-inner img {
+		min-height: 250px;
+		width: 100%;
+	}
+
+
+}
