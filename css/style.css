@@ -10,6 +10,7 @@ body {
 	color: #555;
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
+	
 }
 
 h1,
@@ -199,16 +200,16 @@ h6 {
 }
 
 #h3tony {
-	/*H3 NOME DO AUTOR*/
+	/*	H3 NOME DO AUTOR*/
 	margin-left: 86px;
 	margin-top: 58px;
 
 }
 
 #blogTony {
-	/*PARAGRAFO*/
-	margin-top: 109px;
+	margin-top: 22px;
 }
+
 
 
 #TituloBruce {
@@ -226,7 +227,6 @@ h6 {
 }
 
 
-
 #Imgblog {
 	position: absolute;
 }
@@ -236,6 +236,8 @@ h6 {
 	position: absolute;
 	font-size: 12px;
 }
+
+#btnBlog {}
 
 #btnForm {
 	margin-left: 24%;
@@ -256,8 +258,10 @@ h6 {
 /*TITULOS DA PAGINA CONTATO*/
 #SN {
 	margin-bottom: 19px;
-	margin-right: 215px;
+	margin-right: 141px;
+	text-align: inherit;
 }
+
 
 .InformConta {
 	margin-left: 20px;
@@ -269,17 +273,69 @@ h6 {
 	margin-right: 60px;
 }
 
+#IC {
+	text-align: inherit;
+}
+
+/*RODAPE*/
+.p-3 {
+    padding: 1rem!important;
+    padding-top: 34px!important;
+    margin-bottom: 0px!important;
+}
+
 
 
 /*MEDIA QUERIES*/
+@media (max-width: 990px) and (min-width: 501px) {
+	#h3tony {
+		margin-left: 142px;
+		margin-top: 58px;
 
-@media (min-width: 300px) and (max-width: 979px) {
-	#TituloTonyStark {
-		margin-left: 25px;
 	}
 
-	#h3tony {
-		margin-left: 156px;
+	#TituloTonyStark {
+		margin-bottom: -16%;
+		margin-top: 70px;
+		margin-left: -11%;
+	}
+
+	#txtMuted {
+		margin-left: 180px;
+		position: absolute;
+		font-size: 12px;
+	}
+
+	#blogTony {
+		margin-top: 63px;
+		margin-left: -38px;
+	}
+
+
+
+	#TituloBruce {
+		margin-top: 72px;
+		margin-right: -13px;
+
+	}
+
+	#blogBruce {
+		margin-top: 8px;
+	}
+
+	#h3bruce {
+		margin-left: 155px;
+		margin-top: 58px;
+		margin-right: -26px;
+	}
+}
+
+
+@media (max-width: 501px) {
+	#TituloTonyStark {
+		margin-bottom: -16%;
+		margin-top: 70px;
+		margin-left: -20%;
 	}
 
 	#txtMuted {
@@ -288,54 +344,94 @@ h6 {
 		font-size: 12px;
 	}
 
-	#ImgDivider3 p {
-		margin-top: -26px;
+	#blogTony {
+		margin-top: 88px;
 	}
 
-	#dividerFamilia p {
-		margin-top: -40px;
+	#btnBlog {
+		margin-bottom: 21px;
 	}
 
-	#dividerFamilia h2 {
-		padding-top: -9px;
+
+
+}
+
+@media (max-width: 991px) and (min-width: 500px){
+	#imgDiamante{
+		margin-right: 74%;
+    position: initial;
+}
+	}
+	
+
+
+@media (max-width: 1197px) and (min-width: 991px) {
+	#TituloTonyStark {
+		margin-bottom: -16%;
+		margin-top: 70px;
+		margin-left: -20%;
+
 	}
 
-	#trabconosco p {
-		margin-left: 74px;
-		margin-right: 74px;
-		margin-bottom: 82px;
+	#blogTony {
+		margin-top: 84px;
 	}
 
-	#trabconosco button {
-		margin-left: 41%;
-		margin-top: -101px;
+	#txtMuted {
+		margin-left: 214px;
+		position: absolute;
+		font-size: 12px;
 	}
 
+	#TituloBruce {
+		margin-top: 73px;
+		margin-right: 107px;
+	}
+
+	#blogBruce {
+		margin-top: 2px;
+	}
 	
 }
 
-@media screen and (max-width: 480px) {
-	#ImgDivider3 p {
-		margin-top: -43px;
-	}
-
-	.iconDivider4 a {
-		margin-left: -22px;
-		padding-right: 14px;
+@media (max-width: 1037px) and (min-width: 775px) {
+	#trabconosco p {
+		margin-left: 44px;
+		margin-right: 44px;
 
 	}
 
-	#dividerFamilia linha {
-		margin-left: 25%;
-		margin-right: 25%;
-		margin-bottom: 94px;
-		border-bottom: 1px groove;
+	#trabconosco h2 {
+		margin-top: 17px;
 	}
 
-	.carousel-inner img {
-		min-height: 250px;
-		width: 100%;
+}
+
+
+@media (max-width: 991px) and (min-width: 797px) {
+	#SN {
+		margin-bottom: 12px;
+		margin-right: 75px;
+		text-align: inherit;
+
 	}
 
+	#IC {
+		text-align: -webkit-center;
 
+	}
+
+	#FC {
+		margin-bottom: 19px;
+		text-align: -webkit-center;
+		margin-right: -1px;
+	}
+
+	#btnForm {
+		margin-left: 10%;
+		padding-left: 22px;
+		padding-right: 22px;
+		margin-right: 4%;
+
+	}
 }
