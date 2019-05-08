@@ -177,9 +177,8 @@ h6 {
 }
 
 .img-fluid {
-	max-width: 100%;
-	height: auto;
-	margin-top: 0%;
+	
+	margin: 0 auto;
 }
 
 
@@ -207,7 +206,7 @@ h6 {
 }
 
 #blogTony {
-	margin-top: 22px;
+	margin-top: 110px;
 }
 
 
@@ -287,6 +286,8 @@ h6 {
 
 
 /*MEDIA QUERIES*/
+
+
 @media (max-width: 990px) and (min-width: 501px) {
 	#h3tony {
 		margin-left: 142px;
@@ -358,7 +359,7 @@ h6 {
 
 @media (max-width: 991px) and (min-width: 500px){
 	#imgDiamante{
-		margin-right: 74%;
+		margin-right: 64%;
     position: initial;
 }
 	}
